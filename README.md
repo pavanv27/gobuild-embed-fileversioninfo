@@ -48,6 +48,7 @@ On running build.sh file, the binary is created with file version info in the ro
 * reads version from the verion.txt file
 * Embeds the version info using -ldflags buildflag while running the 'go build' command
 
-## Example:
-File version would be shown as below in windows:
-![alt text](https://github.com/pavanv/gobuild-embed-fileversioninfo/blob/master/image1.jpg?raw=true)
+## Screenshots of file version as seen in windows :
+![fvi1](https://user-images.githubusercontent.com/75796552/104570674-40504a00-5678-11eb-8217-104514d61af8.jpg)
+![fvi2](https://user-images.githubusercontent.com/75796552/104570670-3f1f1d00-5678-11eb-893f-a67a23456e36.jpg)
+
