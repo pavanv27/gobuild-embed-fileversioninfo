@@ -25,12 +25,12 @@ if len(os.Args) > 1 {
 ```
 
 ## To build go binary
-Edit version.txt with the desired build version. 
-Eg. Edit version.txt with value as 1,1,0,0 if desired version is 1.1.0.0
-    Run build.sh for linux platform
-    Run build.bat for windows platform
-On running build.sh file, the binary is created with file version info in the root healthmon directory 
-(provided version.txt file exists and has version info).
+* Edit version.txt with the desired build version. 
+* Eg. Edit version.txt with value as 1,1,0,0 if desired version is 1.1.0.0
+    - Run build.sh for linux platform
+    - Run build.bat for windows platform
+* On running build.sh file, the binary is created with file version info in the root healthmon directory 
+    - (provided version.txt file exists and has version info).
 
 ## To get version info from binary
     <your go binary> [-v/--version] - gives the build version
@@ -52,3 +52,6 @@ On running build.sh file, the binary is created with file version info in the ro
 ![fvi1](https://user-images.githubusercontent.com/75796552/104570674-40504a00-5678-11eb-8217-104514d61af8.jpg)
 ![fvi2](https://user-images.githubusercontent.com/75796552/104570670-3f1f1d00-5678-11eb-893f-a67a23456e36.jpg)
 
+
+Improvements to be done in coming releases:
+* Adding Product version, copyright and other info to the file.
